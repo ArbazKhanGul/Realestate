@@ -6,7 +6,7 @@ import { MdCancel } from 'react-icons/md';
 import Image from 'next/image';
 import { filterData,getFilterValues } from '../utils/filterData';
 import noresult from "../assests/images/noresult.svg";
-import { baseURL, fetchAPI } from '../utils/fetchApi';
+import { baseURL, fetchAPI } from '../utils/fetchAPi';
 export default function SearchFilters(){
 const  [filters,setfilters]=useState(filterData);
 const [searchTerm, setSearchTerm] = useState('');
