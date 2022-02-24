@@ -6,7 +6,7 @@ import { GoVerified } from 'react-icons/go';
 import millify from 'millify';
 
 
-import {baseURL ,fetchAPI} from "../../utils/fetchAPi";
+import {baseURL ,fetchAPI} from "../../utils/fetch";
 import ImageScrollbar from '../../components/ImageScrollbar';
 const PropertyDetail=({ propertyDetails: { price, rentFrequency, rooms, title, baths, area, agency, isVerified, description, type, purpose, furnishingStatus, amenities, photos } })=>{
 
